@@ -64,8 +64,12 @@ h1 {
     color: #fff;
 }
 
-.hero article {
+article {
     position: absolute;
+    top: 90px;
+    background-color: rgba(80, 25, 25, 0.534);
+    color: #fff;
+    
 }
 
 .hero article img {
