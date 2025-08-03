@@ -201,14 +201,15 @@ fieldset {
 }
 
 legend {
-    padding: o.5rem;
+    padding: 0.5rem;
     color: navy;
     font-size: 1.3em;
 }
 
 label, input, button, select, textarea {
-    font-family: monospace,;
+    font-family: monospace;
 }
+
 input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
@@ -227,7 +228,7 @@ input[type="checkbox"] {
 
 .column1 {
     grid-template-columns: 3fr 1fr;
-    margin: 0,5rem 0;
+    margin: 0.5rem 0;
 }
 
 .column2 {
