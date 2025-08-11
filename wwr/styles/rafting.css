@@ -263,3 +263,197 @@ figcaption {
 .wireframe a{
     text-decoration: none;
 }
+
+.new {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border: 1px solid brown; */
+    gap: 2px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #d2dbdb49;
+}
+
+.new figure img {
+    width: 150px;
+    max-height: 2450px;
+
+}
+
+.cards {
+    background-color: rgba(179, 152, 152, 0.123);
+    margin: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    border: 1px solid rgba(95, 26, 26, 0.144);
+    justify-items: center;
+    margin: 10px;
+    padding: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+
+}
+
+.for-cards h2 {
+    text-align: center;
+    margin: 4px;
+    font-family: monospace;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    text-align: center;
+    font-family: noto;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+ .card:hover{
+    background-color: rgba(95, 95, 107, 0.192);
+    transform: rotateY(5deg) rotateX(3deg);
+ }
+
+ .callto{
+    margin-top: 20px;
+    
+ }
+
+ .callto a {
+    text-decoration: none;
+    color: rgb(21, 156, 3);
+    font-size: large;
+    font-family: monospace;
+    font-weight: 700;
+ }
+
+ .callto a:hover{
+    color: red;
+ }
+
+ /* This style is for the Description */
+
+ .desc-cards {
+    background-color: rgba(196, 63, 189, 0.103);
+    margin: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.desc-card {
+    border: 1px solid rgba(153, 21, 21, 0.301);
+    justify-items: center;
+    margin: 10px;
+    padding: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+
+}
+
+.for-desc-cards h2 {
+    text-align: center;
+    font-family: monospace;
+    margin-top: 2.5rem;
+    margin-bottom: 10px;
+}
+.for-desc-cards a{
+    text-decoration: none;
+    color: green;
+    font-family: monospace;
+    font-weight: 800;
+    font-size: large;
+}
+.for-desc-cards a:hover{
+    color: red;
+}
+
+
+.desc-card h3 {
+    text-align: center;
+    font-family: noto;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+ .desc-card:hover{
+    background-color: rgba(37, 37, 172, 0.192);
+    transform: rotateY(5deg) rotateX(3deg);
+ }
+
+
+ /* This is where the styles for the description ends */
+
+ /* This styles are for table in the trips page */
+
+ table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border: 1;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #008CBA; /* rafting brand color */
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+tr:hover {
+  background-color: #f1f9ff;
+  cursor: pointer;
+}
+
+caption {
+  caption-side: top;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+    width: 100%;
+  }
+
+  tr {
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+  td {
+    padding: 10px;
+    text-align: right;
+    position: relative;
+  }
+
+  td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-weight: bold;
+    color: #555;
+    text-transform: capitalize;
+  }
+
+  th {
+    display: none;
+  }
+}
+
+/* The styles ends here */
